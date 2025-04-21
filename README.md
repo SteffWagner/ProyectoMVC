@@ -27,8 +27,8 @@ The entire system was built with ❤️ and code by **Estefania Wagner & Allan U
 
 - **Clone the repository:**
 git clone https://github.com/SteffWagner/ProyectoMVC.git
-- Move the project folder to the www directory in AMPPS
-- Import mydb150.sql into phpMyAdmin
+- Move the project folder to the www directory in **AMPPS**
+- Import **mydb150.sql** into **phpMyAdmin**
 - **Update your local DB config in:**
 config/Test_conexion.php
 - **Open your browser and go to:**
@@ -52,4 +52,4 @@ All illustrations and background visuals used in the system were custom-designed
 
 ## 📝 **License**
 
-This project is open-sourced under the MIT License.
+This project is open-sourced under the **MIT License**.
