@@ -1,0 +1,90 @@
+.content {
+  margin-left: 380px; /* Ajusta el margen izquierdo para evitar que la tabla se solape con el menú */
+  margin-top: 20px; /* Ajusta el margen superior para crear espacio entre el menú y la tabla */
+  margin-right: 200px; /* Ajusta el margen derecho para crear espacio entre el menú y la tabla */
+}
+
+.titulo {
+  display: inline-block;
+  text-align: left;
+  border: 2px solid #1A9F63;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin: 20px 20px 20px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  font-size: 16px;
+  width: 800px;
+  
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 20px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  width: 12.5%;
+  height: 50px;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #1A9F63;
+  font-weight: bold;
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.completada {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.en-progreso {
+  background-color: #FFC107;
+  color: black;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.retrasada {
+  background-color: #F44336;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#searchInput {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+
+thead {
+  background-color: #1A9F63; /* Color de fondo del encabezado */
+  color: white; /* Color del texto del encabezado */
+  padding: 12px;
+  font-size: 15px;
+}

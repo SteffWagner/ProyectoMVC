@@ -1,0 +1,174 @@
+@import url("fuentes/stylesheet.css");
+:root { 
+
+    /*Sistema de Gestion de Proyectos para PYMES*/
+    /*Paleta de Colores Oficial del Sistema*/
+    
+    --color1: #04301D;
+    --color2: #0A5D38;
+    --color3: #1A9F63;
+    --color4: #E2E6E5;
+    --color5: #5592ED;
+    
+    /*colores adicionales*/
+    --negro: #000000;
+    --blanco: #ffffff;
+    --azulito: #2874a6;
+    --marino: #154360;
+    --color6: #FCFCFC; 
+    --color7: #d9d9d9;
+    --color8: #E6E6E6;
+    
+    }
+
+body {
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Estilos básicos del menú */
+
+.sidebar {
+    width: 265px;
+    background-color: #010b0cb6;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    border-radius: 0px 20px 20px 0px;
+    margin-right: 300px;
+    /*Ajustaelmargenderechoparacrearespacioentreelmenúylatabla*/z-index: 200;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
+    -ms-border-radius: 0px 20px 20px 0px;
+    -o-border-radius: 0px 20px 20px 0px;
+}
+
+/* Resto de estilos del menú */
+
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 9px 0;
+}
+
+.menu a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px;
+    margin-left: 20px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    margin-right: 10px;
+    font-size: 15px;
+    position: relative; /* Permite posicionar la imagen hover sobre la imagen normal */
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #05331fda;
+    color: #ffffff; 
+}
+
+/* Linea divisioria del menu*/
+.linea { 
+    margin-top: 12px; 
+    margin-bottom: 12px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    height: 3px; 
+    background-color: #1fb471
+    
+    
+}
+
+/* Estilos para el texto */
+.texto {
+    margin-left: 35px; /* Margen a la izquierda para separar la imagen */
+}
+
+/*  Estilos de iconos SVG */
+
+.imagen-normal,
+.imagen-hover {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Estilos para la imagen normal (visible inicialmente) */
+.imagen-normal img {
+    display: block;
+}
+
+/* Estilos para la imagen hover (visible al pasar el cursor sobre el enlace) */
+.imagen-hover img {
+    display: none;
+}
+
+/* Estilos para mostrar la imagen hover al pasar el cursor sobre el enlace */
+.menu a:hover .imagen-normal img {
+    display: none;
+}
+
+.menu a:hover .imagen-hover img {
+    display: block;
+}
+
+.space {
+    height: 20px; /* Ajusta el espacio según sea necesario */
+}
+
+
+
+/*Estilos de Cerrar Sesion*/
+
+
+.boton-menu {
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-color: #0a5d38dc;
+    margin-left: 90px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.boton-menu:hover {
+    background-color: #787ef6dc;
+
+}
+
+
+.textoCS {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff; /* Color de texto normal */
+}
+
+.textoCS:hover {
+    color: #ffffff; /* Cambiar color de texto al pasar el ratón */
+}

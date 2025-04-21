@@ -1,0 +1,109 @@
+@import url("fuentes/stylesheet.css");
+
+/* Estilos para el formulario */
+.formulario {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #20a261;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    margin-left: 480px;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"],
+button.cancel {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #20a261;
+    color: #fff;;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button.cancel:hover {
+    background-color: #67a1f8;
+}
+
+.btnGPA {
+    background-color: #5592ED;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 11px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+}
+
+.btnGPA:hover {
+    background-color: #6da4f6;
+}
+
+button.cancel {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20a261;
+    color: #333;
+    cursor: pointer;
+}
+
+button.cancel:hover {
+    background-color: #f8f8f8;
+}
+
+.error-content {
+    position: fixed; /* Cambiar a fijo para que se mantenga en la parte inferior */
+    bottom: 20px; /* Espacio desde la parte inferior */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    max-width: 90%; /* Ancho máximo del mensaje de error */
+    background-color: #f8d7da; /* Color de fondo */
+    border: 1px solid #f5c6cb; /* Borde */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 15px; /* Espacio interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center; /* Centrar texto */
+}
+
+.error-message {
+    color: #0d5f2f; /* Color de texto */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.error-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.error-btn:hover {
+    background-color: #c82333; /* Cambio de color al pasar el mouse */
+}

@@ -1,0 +1,131 @@
+@import url("fuentes/stylesheet.css");
+
+/* Resto de tus estilos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1A9F63;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+    margin-left: 265px;
+
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3{
+    text-align: center; /* Centra horizontalmente */
+    margin-right: 5px; /* Ajusta el espacio entre el título y el borde derecho */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1A9F63;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+#reportResults {
+    margin-top: 20px;
+}
+
+#reportResults table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#reportResults th, #reportResults td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#reportResults th {
+    background-color: #f2f2f2;
+}
+
+#reportResults td {
+    text-align: center;
+}
+
+.container ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+
+.container li {
+    margin-bottom: 10px; 
+}
+
+
+.container li a {
+    text-decoration: none; 
+    color: #333; 
+}
+
+
+.container li a:hover {
+    color: #1A9F63; 
+}
+
+#printButton {
+    background-color: #1A9F63;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#printButton:hover {
+    background-color: #147e52;
+}
+
+/* Estilos para el botón Generar PDF */
+#generatePDF {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1A9F63;
+    color: #fff;
+    cursor: pointer;
+}
+
+#generatePDF:hover {
+    background-color: #147e52;
+}

@@ -1,0 +1,23 @@
+@import url("fuentes/stylesheet.css");
+:root { 
+
+/*Sistema de Gestion de Proyectos para PYMES*/
+/*Paleta de Colores Oficial del Sistema*/
+
+--color1: #04301D;
+--color2: #0A5D38;
+--color3: #1A9F63;
+--color4: #E2E6E5;
+--color5: #5592ED;
+
+/*colores adicionales*/
+--negro: #000000;
+--blanco: #ffffff;
+--azulito: #2874a6;
+--marino: #154360;
+--color6: #FCFCFC; 
+--color7: #d9d9d9;
+--color8: #E6E6E6;
+
+}
+

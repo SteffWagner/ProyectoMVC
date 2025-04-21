@@ -1,0 +1,14 @@
+{
+    "name": "estefania/proyecto-mvc",
+    "autoload": {
+        "psr-4": {
+            "Estefania\\ProyectoMvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Smart Pymes Software Solutions"
+        }
+    ],
+    "require": {}
+}

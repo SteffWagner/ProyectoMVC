@@ -1,0 +1,83 @@
+/* Resetea los márgenes y padding para que no afecten a tu layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #444;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    padding: 40px;
+}
+
+/* Estilo del detalle de la tarea, el modal en sí */
+.detalle-tarea {
+    background: #ffffff; /* Fondo blanco para el modal */
+    padding: 25px; /* Espaciado interno */
+    margin: 20px 0; /* Margen externo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(1, 82, 35, 0.1); /* Sombra para darle profundidad */
+    width: 100%;
+    max-width: 640px; /* Ancho máximo para grandes pantallas */
+    text-align: left;
+}
+
+.detalle-tarea h1 {
+    color: #078039;
+    font-size: 24px; /* Tamaño grande para el título */
+    margin-bottom: 20px; /* Espacio después del título */
+    text-align: center; /* Centrado del título */
+}
+
+.detalle-tarea h2 {
+    color: #065c2d;
+    margin: 10px 0 20px; /* Espaciado alrededor de los subtítulos */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.detalle-tarea ul {
+    list-style: none; /* Quita los estilos por defecto de lista */
+    padding: 0;
+    margin: 0;
+}
+
+.detalle-tarea li {
+    background: #f2f2f2; /* Fondo ligeramente gris para cada elemento de lista */
+    border: 1px solid #e1e1e1; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio entre elementos de lista */
+}
+
+/* Estilos para botones */
+.btnGP {
+    background-color: #4CAF50; /* Verde atractivo para el botón */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px; /* Espacio antes del botón */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar de color */
+}
+
+.btnGP:hover {
+    background-color: #45a049; /* Un verde un poco más oscuro al pasar el ratón por encima */
+}
+#company-logo {
+    display: block;
+    max-width: 100px; /* Ajusta esto al tamaño deseado para tu logo */
+    margin: 0 auto 20px; /* Centra el logo y agrega margen inferior */
+}

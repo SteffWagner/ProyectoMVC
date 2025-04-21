@@ -1,0 +1,58 @@
+/* Estilos para el mensaje de éxito */
+.success-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999; /* Asegúrate de que el z-index sea mayor que el de la tabla */
+}
+
+/* Estilos para el mensaje de error */
+.error-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f44336;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999; /* Asegúrate de que el z-index sea mayor que el de la tabla */
+}
+
+/* Estilos para asegurar que la tabla de mantenimiento sea visible */
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+/* Estilos para los botones */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1A9F63;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #188d75;
+}
+
+
+
+

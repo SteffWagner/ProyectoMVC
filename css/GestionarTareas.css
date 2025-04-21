@@ -1,0 +1,150 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centra el contenido verticalmente */
+        align-items: center; /* Centra el contenido horizontalmente */
+        min-height: 100vh; /* Establece la altura mínima de la ventana gráfica */
+        background-color: #f8f8f8;
+    }
+    .titulo {
+        display: inline-block; /* Cambiado a inline-block para que tenga el mismo ancho que el contenido */
+        text-align: left;
+        border: 2px solid #787FF6;
+        border-radius: 8px;
+        padding: 10px 20px 10px 40px;
+        margin: 20px 20px 20px 0;
+        box-sizing: border-box;
+        font-size: 16px;
+        width: 800px; /* Ancho fijo igual al de la tabla */
+        margin-left: 100px;
+    }
+
+    table {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 20px; /* Ajuste de márgenes */
+        border-collapse: collapse;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        margin-bottom: 410px;
+        margin-top: 15px;
+        margin-left: 270px;
+        margin-right: 60px;
+
+    }
+    .crear-btn {
+        background-color: #1A9F63;
+        color: white;
+        padding: 10px 20px; /* Tamaño de relleno uniforme */
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 0.9em; /* Ajusta el tamaño del texto */
+    }
+
+    .crear-btn:hover {
+        background-color: #34d18a; /* Cambio de color al pasar el cursor */
+    }
+    
+    
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        width: 12.5%; /* Ancho fijo para cada celda (100% / 8 columnas) */
+        height: 50px; /* Altura fija para cada celda */
+        white-space: nowrap; /* Evita el desbordamiento de texto y mantiene el contenido en una sola línea */
+    }
+    th {
+        background-color: #787FF6; /* Verde oscuro */
+        font-weight: bold;
+        color: white; /* Texto en blanco */
+    }
+    tbody tr:hover {
+        background-color: #f9f9f9;
+    }
+    .icon {
+        margin-right: 5px;
+    }
+    .completada {
+        background-color: #4CAF50; /* Verde */
+        color: white; /* Texto en blanco */
+        padding: 8px; /* Ajuste de padding */
+        border-radius: 4px; /* Bordes redondeados */
+    }
+    .en-progreso {
+        background-color: #FFC107; /* Amarillo */
+        color: black; /* Texto en negro */
+        padding: 8px; /* Ajuste de padding */
+        border-radius: 4px; /* Bordes redondeados */
+    }
+    .retrasada {
+        background-color: #F44336; /* Rojo */
+        color: white; /* Texto en blanco */
+        padding: 8px; /* Ajuste de padding */
+        border-radius: 4px; /* Bordes redondeados */
+    }
+    #searchInput {
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #125f2234;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .editar-btn {
+        padding: 10px 3px 12px 2px;
+        border: none;
+        border-radius: 4px;
+        background-color: #1A9F63;
+        color: #fff;
+        font-size: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        margin-right: 9px;
+    }
+    
+    .editar-btn:hover {
+        background-color: #2cc781 /* Cambio de color al pasar el cursor */
+    }
+    
+    .eliminar-btn {
+        padding: 3px;
+        border: none;
+        border-radius: 4px;
+        background-color: #ed4452;
+        color: #fff;
+        font-size: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .eliminar-btn:hover {
+        background-color: #fd5967; /* Cambio de color al pasar el cursor */
+    }
+
+    .ver-btn {
+        padding: 10px 3px 12px 2px;
+        border: none;
+        border-radius: 4px;
+        background-color: #6a70e4;
+        color: #fff;
+        font-size: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-right: 4px;
+    }
+    
+    .ver-btn:hover {
+        background-color: #8187fb; /* Cambio de color al pasar el cursor */
+    }

@@ -1,0 +1,181 @@
+@import url("fuentes/stylesheet.css");
+
+
+/* Estilos del formulario de creación de proyecto */
+
+.formulario {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #787FF6;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    margin-left: 490px;
+    margin-right: 250px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    
+    margin-bottom: 9px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 90%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #c8c8c8;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.btnAgregar {
+    background-color: #15824B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 13px;
+    margin-top: 22px;
+}
+
+.btnAgregar:hover {
+    background-color: #20a261;
+}
+
+
+.btnGPA {
+    background-color: #508de9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    margin-top: 22px;
+}
+
+.btnGPA:hover {
+    background-color: #67a1f8;
+}
+
+/* Clase para div para espacio del dashboard */
+
+.space {
+    height: 20px; /* Ajusta el espacio según sea necesario */
+}
+
+
+.titulo {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #787FF6;
+    border-radius: 8px;
+    padding: 11px 4px 4px 4px;
+    margin-top: 37px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 697px;
+    margin-left: 490px;
+    margin-top: 140px;
+    
+}
+
+
+/* Estilo del fondo semi-transparente */
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente oscuro */
+    z-index: 9998; /* Asegura que esté por debajo del modal pero por encima de otros elementos */
+    display: none; /* Inicialmente oculto */
+}
+
+/* Contenido del modal */
+.error-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 475px;
+    max-width: 490px;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: none; /* Inicialmente oculto */
+}
+
+/* Botón de aceptar */
+.error-btn {
+    background-color: #f2493d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo cuando el cursor pasa sobre el botón */
+.error-btn:hover {
+    background-color: #d32f2f;
+}
+
+.btnGP {
+    background-color: #787FF6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 17px;
+    font-size: 14px;
+    margin-bottom: 6px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 10px;
+}
+
+.btnGP:hover {
+    background-color: #5d63c8;
+}
+
+
+.btnCancelar {
+    padding: 10px 20px;
+    background-color: #f44747;
+    /*Colordeseado*/color: white;
+    text-decoration: none;
+    border-radius:5px;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    margin-left: 300px;
+
+}
+
+.btnCancelar:hover {
+    background-color: #c42c2c; /* Color deseado para hover */
+}

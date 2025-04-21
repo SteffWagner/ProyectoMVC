@@ -1,0 +1,109 @@
+@import url("fuentes/stylesheet.css");
+
+
+/* Estilos para el formulario */
+.formulario {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #1A9F63;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    margin-left: 480px;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"],
+button.cancel {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #67a1f8;
+    color: white;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button.cancel:hover {
+    background-color: #67a1f8;
+}
+
+.error-message {
+    color: #1A9F63;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.btnGPA {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1A9F63; /* Cambia el color de fondo del botón a rojo */
+    color: white; /* Cambia el color del texto del botón a blanco */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    cursor: pointer;
+}
+
+.btnGPA:hover {
+    background-color: #1A9F63; /* Cambia el color de fondo del botón a rojo oscuro cuando el cursor está sobre el botón */
+}
+
+
+/* Estilos para el modal */
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 9999;
+}
+
+.error-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+}
+
+.error-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.error-btn:hover {
+    background-color: #45a049;
+}
+
+
+

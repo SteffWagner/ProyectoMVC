@@ -1,0 +1,104 @@
+@import url("fuentes/stylesheet.css");
+
+
+/* Estilos del formulario de creación de proyecto */
+
+.formulario {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #5592ED;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    margin-left: 480px;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 80%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #c8c8c8;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.btnAgregar {
+    background-color: #019c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: #20a261;
+}
+
+
+.btnGPA {
+    background-color: #508de9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.crear-btn {
+    background-color: #1f6101; /* Azul */
+    color: #ffffff; /* Blanco */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Texto en negrita */
+    cursor: pointer; /* Cursor de puntero */
+}
+
+.crear-btn:hover {
+    background-color: #02941a; /* Cambio de color al pasar el ratón */
+}
+
+
+.btnGPA:hover {
+    background-color: #67a1f8;
+}
+
+/* Clase para div para espacio del dashboard */
+
+.space {
+    height: 20px; /* Ajusta el espacio según sea necesario */
+}
+
+
+.titulo {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #0c8520;
+    border-radius: 8px;
+    padding: 11px 11px 11px 11px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 750px;
+    margin-left: 460px;
+    
+}

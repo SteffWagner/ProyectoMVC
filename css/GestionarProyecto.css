@@ -1,0 +1,148 @@
+/*------------------------Estilos de Gestion-------------------------------- */
+
+.contenidoaqui
+{
+margin-left: 320px;
+margin-right: 50px;
+}
+
+.container {
+  display: flex;
+  gap: 14px;
+  /*overflow-x: auto;
+  */padding: 13px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  /*Margensuperiorde20px*/
+  margin-bottom: 80px;
+  margin-left: 400px;
+  border: 2px solid #787FF6;
+  border-radius:9px ;
+  -webkit-border-radius:9px ;
+  -moz-border-radius:9px ;
+  -ms-border-radius:9px ;
+  -o-border-radius:9px ;
+
+}
+
+.project {
+  width: calc(33.33% - 25px); /* Tamaño fijo para cada card */
+  flex-shrink: 0; 
+  z-index: 10;
+  margin-left: 10px;
+
+}
+
+.card {
+  width: 100%;
+  height: 100%; /* Establece la altura al 100% */
+  background-color: #cad5e1e7;;
+  border: 1px solid #0f4b4d;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(2, 49, 56, 0.356);
+  z-index: -990;
+  padding: 10px;
+  box-sizing: border-box; /* Incluye el padding en el ancho y alto */
+  font-size: 16px;
+}
+
+h3{
+  font-size: 16px;
+}
+
+p{
+  font-size: 14px;
+
+}
+
+.card-body {
+  padding: 10px;
+  z-index: 10;
+  background-color: #ced4da1e;
+  
+}
+.card-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  font-size: 15px;
+  
+}
+
+.v-card-subtitle{
+  font-weight: bold;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+
+.card-link {
+  color: #1A9F63; /* Cambia el color del enlace a azul */
+  text-decoration: none; /* Quita el subrayado */
+  font-weight: bold;
+}
+
+.card-link:hover {
+  color: #787FF6; /* Cambia el color del enlace a rojo al pasar el mouse por encima */
+}
+
+.btn-primary{
+  background-color: #1A9F63;
+  z-index: 15;
+}
+.a{
+  background-color: #1A9F63;
+  z-index: 15;
+}
+
+
+/*------------------------Estilos es Busqueda-------------------------------- */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 47px;
+  margin-left: 260px ;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 600px;
+  border-radius: 20px;
+  border: 3px solid #1A9F63;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-container input[type="text"]::placeholder {
+  text-align: center;
+}
+
+/* Cambiar el estilo del input al enfocarse */
+.search-container input[type="text"]:focus {
+  border-color: #1A9F63;
+}
+
+/* Quitar el borde al pulsar Enter */
+.search-container input[type="text"]:focus::placeholder {
+  color: transparent;
+}
+
+/* Cambiar el estilo del input al pasar el cursor */
+.search-container input[type="text"]:hover {
+  border-color: #787FF6;
+}
+
+
+
+
+
+
+
+
+
+

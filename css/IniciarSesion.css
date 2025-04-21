@@ -1,0 +1,138 @@
+@import url("fuentes/stylesheet.css");
+
+/* Team Inicio es el bloque blanco donde esta la informacion del Inicio de sesion*/
+.TeamInicio {
+    position: relative;
+    max-width: 480px;
+    height: 510px;
+    margin: 40px auto;
+    margin-bottom:20px ;
+    padding: 19px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    color:#000000;
+    font-weight: bold;
+    box-sizing: border-box;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+  /* Margen de separacion de las etiquetas */
+  .LabelInicio {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px; 
+  }
+
+  .LabelRestablecer {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 15px; 
+  }
+  
+  .InputInicio[type="text"],
+  .InputInicio[type="password"] {
+    width: 80%;
+    padding: 5px;
+    border-radius: 13px;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 9px;
+    margin-left: 39px;
+    font-size: 14px;
+    color: rgb(17, 17, 17);
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.372);
+    border: solid 1px white;
+    backdrop-filter: blur(100px);
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+  
+  .BotonInicio[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 7px 24px;
+    background-color: #5592ED;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+  .BotonInicio[type="submit"]:hover {
+    background-color: #1A9F63;
+    color: #ffffff;
+  }
+
+  img {
+    max-width: 70%; /* ajusta el tamaño máximo de la imagen */
+    max-height: 70%; /* ajusta la altura máxima de la imagen */
+    margin: auto; /* centra la imagen horizontalmente */
+    display: block; /* asegura que los márgenes automáticos funcionen */
+}
+
+  /* error de inicio de sesion por contrasena incorrecta*/
+
+.error-message {
+    text-align: center;
+    color: rgb(255, 3, 3);
+    font-size: 17px;
+    margin-top: 18px;
+  }
+
+  .success-message {
+    text-align: center;
+    color: rgb(0, 167, 89);
+    font-size: 17px;
+    margin-top: 18px;
+  }
+
+  /* efecto para titulo de Iniciar Sesion */
+  h3 {
+    font-size: 25px;
+    margin-bottom: 60px;
+    color: #f1f1f1;
+    margin-top: 30px;
+    background: linear-gradient(to right, #0b3b17, #0ab248, #09601e);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slide 5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes slide {
+    0% {
+      background-position: 0 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  /* fin de efecto de titulo de Iniciar Sesion */
+
+  /* Efectos de la imagen */
+
+  .logo-suave {
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    border-radius: 10px; /* ajusta el valor para cambiar la suavidad del borde */
+  }
+  
+  .logo-suave:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
