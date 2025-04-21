@@ -5,12 +5,12 @@ The entire system was built with ❤️ and code by Estefania Wagner & Allan Uma
 
 ## 🚀 **Technologies Used**
 
-Frontend: HTML, CSS, JavaScript   
-Backend: PHP
-Database: MySQL
-Version Control: Git + GitHub
-Local Server: AMPPS
-Custom Visual Design: Original SVG backgrounds and UI illustrations created by us ✨
+- **Frontend:** HTML, CSS, JavaScript   
+- **Backend:** PHP
+- **Database:** MySQL
+- **Version Control:** Git + GitHub
+- **Local Server:** AMPPS
+- **Custom Visual Design:** Original SVG backgrounds and UI illustrations created by us ✨
  
 ## 📚 **Key Features**
 
