@@ -3,7 +3,7 @@
 Welcome! This is a web-based system designed to manage projects, tasks, resources, and budgets, developed as part of the Software Implementation and Maintenance course 🛠️.
 The entire system was built with ❤️ and code by Estefania Wagner & Allan Umaña.
 
-🚀 **Technologies Used**
+## 🚀 **Technologies Used**
 
 Frontend: HTML, CSS, JavaScript
 Backend: PHP
@@ -11,8 +11,8 @@ Database: MySQL
 Version Control: Git + GitHub
 Local Server: AMPPS
 Custom Visual Design: Original SVG backgrounds and UI illustrations created by us ✨
-
-📚 **Key Features**
+ 
+## 📚 **Key Features**
 
 ✅ Create and manage projects
 ✅ Manage resources (human, technical, financial, etc)
@@ -23,7 +23,7 @@ Custom Visual Design: Original SVG backgrounds and UI illustrations created by u
 ✅ User login with role-based access (admin, collaborator)
 
 
-🛠️ **How to Run Locally**
+## 🛠️ **How to Run Locally**
 
 Clone the repository:
 git clone https://github.com/SteffWagner/ProyectoMVC.git
@@ -34,11 +34,12 @@ config/Test_conexion.php
 Open your browser and go to:
 http://localhost/ProyectoMVC
 
-🐙 **Contributions**
+## 🐙 **Contributions**
 
 Suggestions and improvements are always welcome via issues or pull requests!
 
-🧑🏻👩🏼 **Authors**
+
+## 🧑🏻👩🏼 **Authors**
 
 @SteffWagner – GitHub
 @AJedoc – GitHub
