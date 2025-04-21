@@ -1,4 +1,4 @@
-📊 **ProyectoMVC — Project Management System**
+# 📊 ProyectoMVC — Project Management System
 
 Welcome! This is a web-based system designed to manage projects, tasks, resources, and budgets, developed as part of the Software Implementation and Maintenance course 🛠️.
 The entire system was built with ❤️ and code by Estefania Wagner & Allan Umaña.
