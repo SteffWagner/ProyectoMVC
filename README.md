@@ -47,10 +47,10 @@ Suggestions and improvements are always welcome via issues or pull requests!
 This project was built with love, dedication, and relentless persistence.
 🎯 "I won’t stop until everything is perfect."
 
-💡 **Notes**
+## 💡 **Notes**
 
 All illustrations and background visuals used in the system were custom-designed by us using SVG format, ensuring both creativity and performance.
 
-📝 **License**
+## 📝 **License**
 
 This project is open-sourced under the MIT License.
