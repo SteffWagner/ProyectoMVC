@@ -25,13 +25,13 @@ The entire system was built with ❤️ and code by **Estefania Wagner & Allan U
 
 ## 🛠️ **How to Run Locally**
 
--**Clone the repository:**
+- **Clone the repository:**
 git clone https://github.com/SteffWagner/ProyectoMVC.git
--Move the project folder to the www directory in AMPPS
--Import mydb150.sql into phpMyAdmin
--**Update your local DB config in:**
+- Move the project folder to the www directory in AMPPS
+- Import mydb150.sql into phpMyAdmin
+- **Update your local DB config in:**
 config/Test_conexion.php
--**Open your browser and go to:**
+- **Open your browser and go to:**
 http://localhost/ProyectoMVC
 
 ## 🐙 **Contributions**
@@ -39,10 +39,9 @@ http://localhost/ProyectoMVC
 Suggestions and improvements are always welcome via issues or pull requests!
 
 
-## 🧑🏻👩🏼 **Authors**
+## 👩🏼🧑🏻 **Authors**
 
-**SteffWagner – GitHub**
-**AJedoc – GitHub**
+**SteffWagner – GitHub & AJedoc – GitHub**
 
 This project was built with love, dedication, and relentless persistence.
                                                                                                                                                                                     🎯 "I won’t stop until everything is perfect."
