@@ -14,13 +14,13 @@ The entire system was built with ❤️ and code by Estefania Wagner & Allan Uma
  
 ## 📚 **Key Features**
 
-+ ✅ Create and manage projects
-+ ✅ Manage resources (human, technical, financial, etc)
-+ ✅ Assign tasks and responsibilities
-+ ✅ Budget and expense tracking
-+ ✅ Report generation
-+ ✅ Security and maintenance modules
-+ ✅ User login with role-based access (admin, collaborator)
+ ✅ Create and manage projects
+ ✅ Manage resources (human, technical, financial, etc)
+ ✅ Assign tasks and responsibilities
+ ✅ Budget and expense tracking
+ ✅ Report generation
+ ✅ Security and maintenance modules
+ ✅ User login with role-based access (admin, collaborator)
 
 
 ## 🛠️ **How to Run Locally**
