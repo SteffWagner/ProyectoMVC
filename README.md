@@ -1,7 +1,10 @@
 # 📊 ProyectoMVC — Project Management System
 
 Welcome! This is a web-based system designed to manage projects, tasks, resources, and budgets, developed as part of the Software Implementation and Maintenance course 🛠️.
-The entire system was built with ❤️ and code by **Estefania Wagner & Allan Umaña.**
+
+The system was built with ❤️ by **Estefania Wagner** & **Allan Umaña**.
+
+---
 
 ## 🚀 **Technologies Used**
 
@@ -10,7 +13,9 @@ The entire system was built with ❤️ and code by **Estefania Wagner & Allan U
 - **Database:** MySQL
 - **Version Control:** Git + GitHub
 - **Local Server:** AMPPS
-- **Custom Visual Design:** Original SVG backgrounds and UI illustrations created by us ✨
+- **Custom Visual Design:** All illustrations and background visuals were custom-designed by us ✨ using SVG format, ensuring both creativity and performance.
+
+---
  
 ## 📚 **Key Features**
 
@@ -22,34 +27,78 @@ The entire system was built with ❤️ and code by **Estefania Wagner & Allan U
  - ✅ Security and maintenance modules
  - ✅ User login with role-based access (admin, collaborator)
 
+ ---
 
-## 🛠️ **How to Run Locally**
 
-- **Clone the repository:**
+## 🛠️ Installation & Local Execution with AMPPS
+
+### 🔽 Requirements
+- [AMPPS](https://www.ampps.com/) installed
+- A web browser and text editor (VS Code recommended)
+
+### 📁 Clone the repository
+```bash
 git clone https://github.com/SteffWagner/ProyectoMVC.git
-- Move the project folder to the www directory in **AMPPS**
-- Import **mydb150.sql** into **phpMyAdmin**
-- **Update your local DB config in:**
-config/Test_conexion.php
-- **Open your browser and go to:**
-http://localhost/ProyectoMVC
+```
+
+### 📂 Move to AMPPS www folder
+On macOS:
+```
+/Applications/AMPPS/www/
+```
+On Windows:
+```
+C:/Program Files (x86)/Ampps/www/
+```
+
+### 🧱 Import the database
+1. Open `phpMyAdmin`
+2. Create a new database named `ProyectoMVC`
+3. Import `mydb150.sql` from the repository
+
+### ⚙️ Configure database connection
+Edit the file `config/Test_conexion.php`:
+```php
+$host = "localhost";
+$user = "root";
+$pass = "mysql";
+$db = "mybd";
+```
+
+### 🚀 Run the system
+Open your browser and go to:
+```
+http://localhost/ProyectoMVC/ or  http://localhost:8080/ProyectoMVC/
+```
+
+
+---
 
 ## 🐙 **Contributions**
 
 Suggestions and improvements are always welcome via issues or pull requests!
 
+---
 
 ## 👩🏼🧑🏻 **Authors**
 
-**SteffWagner – GitHub & AJedoc – GitHub**
+- **Estefania Wagner** – GitHub: [@SteffWagner](https://github.com/SteffWagner)
+- **Allan Umaña** – GitHub: [@AJedoc](https://github.com/AJedoc)
 
 This project was built with love, dedication, and relentless persistence.
                                                                                                                                                                                     -🎯 "I won’t stop until everything is perfect."
+                                                                                                                            
+---                                                                                                                           
+## 📝 **License**
+
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for more information
+
+---
 
 ## 💡 **Notes**
 
 All illustrations and background visuals used in the system were custom-designed by us using SVG format, ensuring both creativity and performance.
 
-## 📝 **License**
-
-This project is open-sourced under the **MIT License**.
+This project was built with effort, persistence, and a lot of love for software development.
+Thank you for visiting and trying out our work!  💪🌟

@@ -54,7 +54,7 @@ C:/Program Files (x86)/Ampps/www/
 
 ### 🧱 Importar la base de datos
 1. Abrir `phpMyAdmin`
-2. Crear una nueva base de datos llamada `proyecto_mvc`
+2. Crear una nueva base de datos llamada `ProyectoMVC`
 3. Importar `mydb150.sql` desde el repositorio
 
 ### ⚙️ Configurar conexión
@@ -62,21 +62,15 @@ Editar `config/Test_conexion.php` con:
 ```php
 $host = "localhost";
 $user = "root";
-$pass = "";
-$db = "proyecto_mvc";
+$pass = "mysql";
+$db = "mydb";
 ```
 
 ### 🚀 Ejecutar el sistema
 Ingresar en navegador a:
 ```
-http://localhost/ProyectoMVC/
+http://localhost/ProyectoMVC/ o http://localhost:8080/ProyectoMVC/
 ```
-
----
-
-## 🧪 Capturas del sistema
-
-> [Agregar capturas aquí en GitHub o link a carpeta]
 
 ---
 
@@ -96,5 +90,7 @@ Consultá el archivo [LICENSE](LICENSE) para más información.
 
 ## 📌 Notas finales
 
+Todas las ilustraciones y fondos visuales utilizados en el sistema fueron diseñados por nosotr@s de forma personalizada en formato SVG, garantizando tanto creatividad como rendimiento. 💪🌟
+
 Este proyecto fue realizado con esfuerzo, persistencia y mucho amor por el desarrollo de software.  
-¡Gracias por visitar y probar nuestro trabajo! 💪🌟
+¡Gracias por visitar y probar nuestro trabajo! 
