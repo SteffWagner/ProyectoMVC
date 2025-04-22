@@ -68,7 +68,12 @@ $db = "mybd";
 ### 🚀 Run the system
 Open your browser and go to:
 ```
-http://localhost/ProyectoMVC/ or  http://localhost:8080/ProyectoMVC/
+http://localhost/ProyectoMVC/ 
+
+or 
+
+``` 
+http://localhost:8080/ProyectoMVC/
 ```
 
 
