@@ -69,8 +69,8 @@ $db = "mybd";
 Open your browser and go to:
 ```
 http://localhost/ProyectoMVC/ 
-
-or 
+``` 
+or
 
 ``` 
 http://localhost:8080/ProyectoMVC/
