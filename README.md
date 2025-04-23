@@ -91,7 +91,7 @@ Suggestions and improvements are always welcome via issues or pull requests!
 - **Allan Umaña** – GitHub: [@AJedoc](https://github.com/AJedoc)
 
 This project was built with love, dedication, and relentless persistence.
-                                                                                                                                                                                    -🎯 "I won’t stop until everything is perfect."
+                                                                                                                                                                                    -🎯 "We won’t stop until everything is perfect."
                                                                                                                             
 ---                                                                                                                           
 ## 📝 **License**
