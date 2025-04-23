@@ -1,23 +1,17 @@
 @import url("fuentes/stylesheet.css");
 
 /* Team Inicio es el bloque blanco donde esta la informacion del Inicio de sesion*/
-.TeamInicio {
-    position: relative;
-    max-width: 480px;
-    height: 510px;
-    margin: 40px auto;
-    margin-bottom:20px ;
-    padding: 19px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 16px;
-    color:#000000;
-    font-weight: bold;
-    box-sizing: border-box;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
+
+.InicioS {
+  background-color: rgba(255, 255, 255, 0.1); /* Color transparente */
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* efecto glassmorphism */
 }
+
   /* Margen de separacion de las etiquetas */
   .LabelInicio {
     display: block;
@@ -56,7 +50,7 @@
     display: block;
     margin: 0 auto;
     padding: 7px 24px;
-    background-color: #5592ED;
+    background-color: #da1e6d;
     color: #fff;
     font-size: 16px;
     border-radius: 9px;
@@ -69,7 +63,7 @@
 }
 
   .BotonInicio[type="submit"]:hover {
-    background-color: #1A9F63;
+    background-color: #2083c1;
     color: #ffffff;
   }
 
@@ -102,7 +96,7 @@
     margin-bottom: 60px;
     color: #f1f1f1;
     margin-top: 30px;
-    background: linear-gradient(to right, #0b3b17, #0ab248, #09601e);
+    background: linear-gradient(to right, #0b3b17, #0d93c8, #09601e);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: slide 5s ease-in-out infinite alternate;
@@ -135,4 +129,20 @@
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
+}
+
+.TeamInicio {
+  background-color: rgb(27, 27, 27)!important; /* fondo semi-transparente */
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  color: white;
+  border: 2px solid fuchsia;
+}
+
+body, main {
+  background-color: #000 !important;
 }

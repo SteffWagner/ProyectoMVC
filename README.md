@@ -57,6 +57,7 @@ C:/Program Files (x86)/Ampps/www/
 3. Import `mydb150.sql` from the repository
 
 ### ⚙️ Configure database connection
+
 Edit the file `config/Test_conexion.php`:
 ```php
 $host = "localhost";

@@ -20,7 +20,7 @@
   <style>
     /*Estilos del fondo del fondo*/
     body {
-      background-image: url("img/fondo1.png");
+      background-image: url("img/fondo1.svg");
       background-position: center center;
       background-size: cover;
       margin: 0;
@@ -44,42 +44,41 @@
     }
 
     /* Estilos para el botón */
-    .BotonVerde {
-      background-color: #1A9F63;
-      color: white;
-      border: none;
-      border-radius: 13px;
-      padding: 10px 22px;
-      font-size: 15px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-      outline: none;
-      margin-left: 160px;
-      letter-spacing: 0.08em;
-      align-items: center;
-      margin-bottom:40px;
-      margin-top: 20px;
-    }
+    .centrado {
+  text-align: center;
+  margin-top: 100px;
+}
 
-    .BotonVerde:hover {
-      background-color: #156D43;
-      /* Tono de verde más oscuro al pasar el cursor */
-    }
+.BotonVerde {
+  background-color: #058BA8;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9px;
+  transition: 0.3s;
+}
 
-    .BotonVerde:active {
-      background-color: #1A9F63;
-      /* Tono de verde aún más oscuro al hacer clic */
-    }
+.BotonVerde:hover {
+  background-color: #CB6CE6;
+}
 
     a {
       color: white;
       text-decoration: none;
     }
   </style>
-  <main>
-    <h1 style="font-family: 'Times New Roman', Times, serif;"><strong>Sistema de Gestion de proyectos para PYMES</strong></h1>
-    <button class="BotonVerde"><a href="http://localhost:8080/ProyectoMVC/views/IniciarSesion.php">Comenzar</button>
-  </main>
+<main style="text-align: center;">
+  <h1 style="font-family: 'Times New Roman', Times, serif;">
+    <strong>Sistema de Gestión de Proyectos</strong>
+  </h1>
+  
+  <a href="http://localhost:8080/ProyectoMVC/views/IniciarSesion.php">
+    <button class="BotonVerde">Comenzar</button>
+  </a>
+</main>
+
 
   <footer>
     
