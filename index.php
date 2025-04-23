@@ -5,11 +5,11 @@
 <head>
   <meta charset="utf-8">
   <!-- Descripcion del enlace, visible para el cliente -->
-  <title>Desarrollos Alpha | Bienvenidos</title>
-  <meta name="description" content="Desarrollos Alpha">
+  <title>AllEst Proyectos | Bienvenidos</title>
+  <meta name="description" content="AllEst Proyectosa">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Desarrollos Alpha">
-  <meta property="og:type" content="Pagina Principal Desarrollos Alpha">
+  <meta property="og:title" content="AllEst Proyectos">
+  <meta property="og:type" content="Pagina Principal AllEst Proyectosa">
   <link rel="apple-touch-icon" href="Logo1.png">
   <!-- Place favicon.ico in the root directory -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">

@@ -86,7 +86,7 @@ body {
 }
 
 .menu a:hover {
-    background-color: #05331fda;
+    background-color: #073d4fda;
     color: #ffffff; 
 }
 
@@ -97,7 +97,7 @@ body {
     margin-left: 20px; 
     margin-right: 20px; 
     height: 3px; 
-    background-color: #1fb471
+    background-color: #54b8ff
     
     
 }
@@ -148,7 +148,7 @@ body {
     border: none;
     background: none;
     cursor: pointer;
-    background-color: #0a5d38dc;
+    background-color: #0e5b7bdc;
     margin-left: 90px;
     border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -158,7 +158,7 @@ body {
 }
 
 .boton-menu:hover {
-    background-color: #787ef6dc;
+    background-color: #e65cdfdc;
 
 }
 
